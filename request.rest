@@ -1,0 +1,21 @@
+//criar docentes
+POST  http://localhost:3003/docente
+Content-Type: application/json
+
+{
+"nome": "fada",
+"email":"fada@gmail.com",
+"data_nasc": "1990-05-10",
+"turma_id":"1c"
+}
+
+###
+//criar turmas
+POST  http://localhost:3003/turma
+Content-Type: application/json
+
+{
+"id": "1c" , 
+"nome": "guimarães",
+"modulo":"5"
+}
