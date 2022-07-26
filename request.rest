@@ -19,3 +19,13 @@ Content-Type: application/json
 "nome": "guimarães",
 "modulo":"5"
 }
+
+###
+//alterar turmas
+PUT   http://localhost:3003/turma/1c
+Content-Type: application/json
+
+{
+
+"modulo":"6"
+}
